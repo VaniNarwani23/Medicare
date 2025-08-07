@@ -96,6 +96,7 @@ const HospitalFinder = () => {
 
       {/* Search Section */}
       <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Search Healthcare Providers</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">ZIP Code</label>
