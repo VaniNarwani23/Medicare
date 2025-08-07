@@ -93,14 +93,14 @@ const Contact = () => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-bold mb-2">Medical Emergency?</h2>
-            <p>For life-threatening emergencies, call 911 immediately.</p>
+            <p>For life-threatening emergencies, call 108 immediately.</p>
           </div>
           <a
             href="tel:911"
             className="bg-white text-red-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center"
           >
             <Phone className="h-5 w-5 mr-2" />
-            Call 911
+            Call 108
           </a>
         </div>
       </div>
@@ -237,7 +237,7 @@ const Contact = () => {
               <div className="space-y-2 text-gray-600">
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  <span>911 - Life-threatening emergencies</span>
+                  <span>108 - Life-threatening emergencies</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 mr-2" />

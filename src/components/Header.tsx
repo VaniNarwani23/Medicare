@@ -36,7 +36,7 @@ const Header = () => {
                 <MapPin className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Rural Medicare</h1>
+                <h1 className="text-2xl font-bold text-gray-900">RuralMedicare <p className="text-sm">Emergency Care, Anywhere You Are</p></h1>
                 <p className="text-sm text-gray-600">Healthcare Access for Rural Communities</p>
               </div>
             </Link>

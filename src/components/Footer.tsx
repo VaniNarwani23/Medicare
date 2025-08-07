@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-red-400" />
-                <span>911 - Emergency</span>
+                <span>108 - Emergency</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
@@ -57,7 +57,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-green-400" />
-                <span>Serving Rural America</span>
+                <span>Serving Rural Areas Of India</span>
               </div>
             </div>
           </div>

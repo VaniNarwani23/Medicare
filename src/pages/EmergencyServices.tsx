@@ -5,7 +5,7 @@ const EmergencyServices = () => {
   const [zipCode, setZipCode] = useState('');
 
   const emergencyContacts = [
-    { name: 'Emergency Services', number: '911', description: 'Life-threatening emergencies' },
+    { name: 'Emergency Services', number: '108', description: 'Life-threatening emergencies' },
     { name: 'Poison Control', number: '1-800-222-1222', description: 'Poison emergencies' },
     { name: 'Medicare Helpline', number: '1-800-MEDICARE', description: 'Medicare questions' },
     { name: 'Crisis Text Line', number: 'Text HOME to 741741', description: 'Mental health crisis' }
@@ -49,7 +49,7 @@ const EmergencyServices = () => {
         <p className="text-xl mb-4">If you're experiencing a life-threatening emergency, call 911 immediately.</p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="tel:911"
+            href="tel:108"
             className="bg-white text-red-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center"
           >
             <Phone className="h-5 w-5 mr-2" />
