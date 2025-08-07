@@ -53,8 +53,8 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-       <section className="w-full h-screen bg-cover bg-center bg-no-repeat text-white" style={{ backgroundImage: "url('images/banner.jpg')" }}>
-
+         <section className="text-white bg-gradient-to-r from-blue-500 to-blue-800 w-full h-30 bg-no-repeat bg-center w-full h-screen flex items-center" >
+      
 
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
     <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md  text-outline-1px-black">
