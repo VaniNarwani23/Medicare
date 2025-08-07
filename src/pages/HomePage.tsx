@@ -52,7 +52,7 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-     <section className="text-white bg-[url(images/banner.png)] bg-no-repeat bg-cover bg-center w-full h-screen flex items-center">
+     <section className="text-white bg-[url(images/banner.jpg)] bg-no-repeat bg-cover bg-center w-full h-screen flex items-center">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
     <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md  text-outline-1px-black">
       Medicare Support for Rural India
