@@ -46,14 +46,14 @@ const EmergencyServices = () => {
           <AlertTriangle className="h-8 w-8 mr-3" />
           <h1 className="text-3xl font-bold">Emergency Services</h1>
         </div>
-        <p className="text-xl mb-4">If you're experiencing a life-threatening emergency, call 911 immediately.</p>
+        <p className="text-xl mb-4">If you're experiencing a life-threatening emergency, call 108 immediately.</p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="tel:108"
             className="bg-white text-red-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center"
           >
             <Phone className="h-5 w-5 mr-2" />
-            Call 911
+            Call 108
           </a>
           <button className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center">
             <Navigation className="h-5 w-5 mr-2" />
@@ -181,7 +181,7 @@ const EmergencyServices = () => {
         <h3 className="text-xl font-bold text-yellow-800 mb-4">When to Seek Emergency Care</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <h4 className="font-semibold text-yellow-800 mb-2">Call 911 Immediately for:</h4>
+            <h4 className="font-semibold text-yellow-800 mb-2">Call 108 Immediately for:</h4>
             <ul className="text-yellow-700 space-y-1">
               <li>• Chest pain or heart attack symptoms</li>
               <li>• Difficulty breathing</li>

@@ -96,7 +96,7 @@ const Contact = () => {
             <p>For life-threatening emergencies, call 108 immediately.</p>
           </div>
           <a
-            href="tel:911"
+            href="tel:108"
             className="bg-white text-red-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center"
           >
             <Phone className="h-5 w-5 mr-2" />

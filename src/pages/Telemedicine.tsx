@@ -14,7 +14,7 @@ const Telemedicine = () => {
 
   const providers = [
     {
-      name: 'Dr. Sarah Johnson',
+      name: 'Dr. Deepa',
       specialty: 'Family Medicine',
       rating: 4.9,
       nextAvailable: 'Today 2:30 PM',
@@ -22,7 +22,7 @@ const Telemedicine = () => {
       image: 'https://images.pexels.com/photos/5327647/pexels-photo-5327647.jpeg?auto=compress&cs=tinysrgb&w=150'
     },
     {
-      name: 'Dr. Michael Chen',
+      name: 'Dr. Rakshita',
       specialty: 'Internal Medicine',
       rating: 4.8,
       nextAvailable: 'Tomorrow 10:00 AM',
@@ -30,12 +30,12 @@ const Telemedicine = () => {
       image: 'https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=150'
     },
     {
-      name: 'Dr. Emily Rodriguez',
+      name: 'Dr. Rahul',
       specialty: 'Mental Health',
       rating: 4.9,
       nextAvailable: 'Today 4:00 PM',
       languages: ['English', 'Spanish'],
-      image: 'https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.unsplash.com/photo-1637059824899-a441006a6875?q=80&w=752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
   ];
 

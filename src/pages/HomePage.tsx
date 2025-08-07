@@ -52,34 +52,31 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Medicare Healthcare for Rural Communities
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              Access quality healthcare services, emergency care, and Medicare support designed specifically for rural America.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/emergency"
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
-              >
-                <Phone className="h-5 w-5 mr-2" />
-                Emergency Services
-              </Link>
-              <Link
-                to="/hospitals"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
-              >
-                Find Healthcare
-                <ArrowRight className="h-5 w-5 ml-2" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+     <section className="text-white bg-[url(images/banner.png)] bg-no-repeat bg-cover bg-center w-full h-screen flex items-center">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
+    <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md  text-outline-1px-black">
+      Medicare Support for Rural India
+    </h1>
+
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Link
+        to="/emergency"
+        className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
+      >
+        <Phone className="h-5 w-5 mr-2" />
+        Emergency Services
+      </Link>
+      <Link
+        to="/hospitals"
+        className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
+      >
+        Find Healthcare
+        <ArrowRight className="h-5 w-5 ml-2" />
+      </Link>
+    </div>
+  </div>
+</section>
+
 
       {/* Features Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -142,11 +139,11 @@ const HomePage = () => {
             <p className="text-xl mb-6">Get immediate help and find the nearest emergency facility</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:911"
+                href="tel:108"
                 className="bg-white text-red-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call 911 Now
+                Call 108 Now
               </a>
               <Link
                 to="/emergency"

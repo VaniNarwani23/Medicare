@@ -22,7 +22,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center text-sm font-medium">
             <Phone className="h-4 w-4 mr-2" />
-            Emergency: Call 911 | Medicare Help: 1-800-MEDICARE
+            Emergency: Call 108 | Medicare Help: 1-800-MEDICARE
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="bg-blue-600 p-3 rounded-lg">
+              <div className="bg-red-600 p-3 rounded-lg">
                 <MapPin className="h-8 w-8 text-white" />
               </div>
               <div>
