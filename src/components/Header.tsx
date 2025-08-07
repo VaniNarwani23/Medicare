@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, MapPin } from 'lucide-react';
+import { Menu, X, Phone, Heart } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,10 +33,10 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
               <div className="bg-red-600 p-3 rounded-lg">
-                <MapPin className="h-8 w-8 text-white" />
+                <Heart className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">RuralMedicare <p className="text-sm">Emergency Care, Anywhere You Are</p></h1>
+                <h1 className="text-2xl font-bold text-gray-900">RuralMedicare</h1>
                 <p className="text-sm text-gray-600">Healthcare Access for Rural Communities</p>
               </div>
             </Link>

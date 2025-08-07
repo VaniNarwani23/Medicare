@@ -42,9 +42,13 @@ const EmergencyServices = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Emergency Banner */}
       <div className="bg-red-600 text-white p-6 rounded-lg mb-8">
-        <div className="flex items-center mb-4">
+        <div className="flex items-center justify-between mb-4">
           <AlertTriangle className="h-8 w-8 mr-3" />
           <h1 className="text-3xl font-bold">Emergency Services</h1>
+          <div className="hidden md:block bg-red-700 px-4 py-2 rounded-lg">
+            <div className="text-sm font-medium">Emergency Hotline</div>
+            <div className="text-xl font-bold">108</div>
+          </div>
         </div>
         <p className="text-xl mb-4">If you're experiencing a life-threatening emergency, call 108 immediately.</p>
         <div className="flex flex-col sm:flex-row gap-4">

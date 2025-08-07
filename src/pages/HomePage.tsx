@@ -52,23 +52,33 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-     <section className="text-white bg-[url(images/banner.jpg)] bg-no-repeat bg-cover bg-center w-full h-screen flex items-center">
+     <section className="relative text-white bg-gradient-to-r from-blue-800 via-blue-600 to-blue-700 w-full h-screen flex items-center overflow-hidden">
+  {/* Background Pattern */}
+  <div className="absolute inset-0 opacity-10">
+    <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.1"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-repeat"></div>
+  </div>
+  
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
-    <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md  text-outline-1px-black">
+    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+      <h1 className="text-3xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">
       Medicare Support for Rural India
-    </h1>
+      </h1>
+      <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-4xl mx-auto">
+        Connecting rural communities to quality healthcare through Medicare coverage, emergency services, and telemedicine solutions.
+      </p>
+    </div>
 
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
       <Link
         to="/emergency"
-        className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
+        className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
       >
         <Phone className="h-5 w-5 mr-2" />
         Emergency Services
       </Link>
       <Link
         to="/hospitals"
-        className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 flex items-center justify-center"
+        className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
       >
         Find Healthcare
         <ArrowRight className="h-5 w-5 ml-2" />
@@ -159,7 +169,7 @@ const HomePage = () => {
 
       {/* Medicare Information */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <div className="bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-xl p-8 md:p-12 border border-blue-100">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Medicare Support for Rural Areas</h2>
@@ -168,19 +178,19 @@ const HomePage = () => {
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center text-gray-700">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   Transportation assistance for medical appointments
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   Extended telemedicine coverage
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   Rural hospital network partnerships
                 </li>
                 <li className="flex items-center text-gray-700">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
                   24/7 support and guidance
                 </li>
               </ul>

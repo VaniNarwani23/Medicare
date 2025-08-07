@@ -73,7 +73,10 @@ const Telemedicine = () => {
       </div>
 
       {/* Quick Booking Section */}
-      <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl text-white p-8 mb-12">
+      <div className="relative bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl text-white p-8 mb-12">
+        <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm rounded-lg px-3 py-1">
+          <span className="text-sm font-medium">Medicare Covered</span>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-4">Book Your Telemedicine Appointment</h2>
