@@ -1,5 +1,6 @@
 
 import React from 'react';
+import banner from './images/banner.jpg';
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
@@ -53,8 +54,10 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-         <section className=" text-black bg-text bg-[url(./images/banner.jpg)]  bg-cover bg-no-repeat bg-center w-full h-screen flex items-center" >
-      
+        <section
+  className="text-black bg-cover bg-no-repeat bg-center w-full h-screen flex items-center relative"
+  style={{ backgroundImage: `url(${banner})` }}
+>
 
     <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-center">
    <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md fontfamily:mon bg-white shadow-lg ">
