@@ -57,7 +57,7 @@ const HomePage = () => {
       
 
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center text-white">
-   <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md relative top-6">
+   <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md relative top-5">
   Medicare Support for Rural India
 </h1>
 
