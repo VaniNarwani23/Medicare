@@ -53,11 +53,11 @@ const HomePage = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-         <section className=" text-white bg-[url(./images/banner.jpg)]  bg-cover bg-no-repeat bg-center w-full h-screen flex items-center" >
+         <section className=" text-black bg-text bg-[url(./images/banner.jpg)]  bg-cover bg-no-repeat bg-center w-full h-screen flex items-center" >
       
 
     <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-center">
-   <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md fontfamily:mon">
+   <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md fontfamily:mon bg-white shadow-lg shadow-cyan-500/50">
       Medicare Support for Rural Areas of India
     </h1>
 
