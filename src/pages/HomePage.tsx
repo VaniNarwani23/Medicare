@@ -56,10 +56,10 @@ const HomePage = () => {
          <section className=" text-white bg-[url(./images/banner.jpg)]  bg-cover bg-no-repeat bg-center w-full h-screen flex items-center" >
       
 
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center text-white">
-   <h1 className="text-2xl md:text-6xl font-bold mb-6 text-white drop-shadow-md relative top-5">
-  Medicare Support for Rural India
-</h1>
+    <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-center">
+   <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md">
+      Medicare Support for Rural India
+    </h1>
 
 
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
