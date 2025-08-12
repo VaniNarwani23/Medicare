@@ -1,5 +1,7 @@
 
 import React from 'react';
+import bannerImage from './images/banner.jpg';
+
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
