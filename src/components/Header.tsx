@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-lg border-b-4 border-blue-600">
+    <header className="bg-white shadow-lg border-b-4">
       {/* Emergency Banner */}
       <div className="bg-red-600 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
