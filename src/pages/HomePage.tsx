@@ -1,7 +1,5 @@
 
 import React from 'react';
-import bannerImage from './images/banner.jpg';
-
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
@@ -59,8 +57,8 @@ const HomePage = () => {
       
 
     <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-center">
-   <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md ">
-      Medicare Support for Rural Areas
+   <h1 className="text-2xl md:text-6xl font-bold mb-4 drop-shadow-md fontfamily:mon">
+      Medicare Support for Rural Areas of India
     </h1>
 
 
